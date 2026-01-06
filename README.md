@@ -53,3 +53,16 @@ building reliable systems, automation frameworks, and SaaS tools.
 
 SaaS projects are treated as a **side business**, with the goal of building
 useful tools
+
+---
+
+## 🧩 Chrome Extension Work(triage companion)
+
+- **QA Workflow Chrome Extension**
+  - Built to streamline real-world QA workflows
+  - Helps capture, organize, and reuse testing context directly from the browser
+  - Focused on reducing friction between testing, reporting, and triage
+  - Built using JavaScript and Chrome Extension APIs
+
+This extension was built from a tester’s perspective to solve everyday productivity gaps.
+
