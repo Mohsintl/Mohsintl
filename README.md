@@ -46,15 +46,7 @@ building reliable systems, automation frameworks, and SaaS tools.
 
 ---
 
-## 🚀 What I’m Building
 
-- **TesterPlaybook** – a human-first, AI-supported test management SaaS  
-  (focused on real-world workflows with Jira and future platform integrations)
-
-SaaS projects are treated as a **side business**, with the goal of building
-useful tools
-
----
 
 ## 🧩 Chrome Extension Work(triage companion)
 
