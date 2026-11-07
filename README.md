@@ -1,49 +1,40 @@
-# Hi, I'm Mohsin 👋
+# Hi, I'm Mohsin
 
-**Senior Quality Engineer & SDET** · Building reliable systems, automation engines, and agentic workflows.  
-*Computer Science graduate | Open-Source Contributor*
+**Senior Quality Engineer & SDET.** I build end-to-end test suites, wire them into CI as quality gates, and contribute fixes back to the open-source testing tools I use.
+
+Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl.github.io/qa-automation-resources](https://mohsintl.github.io/qa-automation-resources/)**
 
 ---
 
-### ⚡ Featured Work & Open Source
+### Test automation projects
 
-| Project / Contribution | Focus | Tech |
+| Project | What it shows | Stack |
 | :--- | :--- | :--- |
-| **[OpenRig](https://github.com/mvschwarz/openrig)** *(Contributor)* | Multi-agent network orchestration CLI & daemon reliability | TypeScript · Node.js · Vitest |
-| **[Paperclip](https://github.com/paperclipai/paperclip)** *(Contributor)* | Heartbeat reconciliation & agent recovery in agent management | TypeScript · PostgreSQL · Vitest |
-| **[Omadeck](https://github.com/Mohsintl/omadeck)** | Tactile PWA mobile remote deck & AI companion for Linux | PWA · WebSockets · Linux |
-| **QA Triage Companion** | Browser extension capturing testing context & streamlining triage | Chrome Extensions API · JS |
+| **[automation-exercise-playwright](https://github.com/Mohsintl/automation-exercise-playwright)** | 24 tests, Page Object Model, smoke on every PR, nightly regression on Chromium, Firefox and WebKit, traces and videos on failure | Playwright · TypeScript · GitHub Actions |
+| **[e2e-automation-exercise](https://github.com/Mohsintl/e2e-automation-exercise)** | The same journeys ported to the agentic e2e framework, with ad-network blocking for deterministic CI runs | e2e · TypeScript · GitHub Actions |
+| **[qa-automation-resources](https://github.com/Mohsintl/qa-automation-resources)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
+| **[Omadeck](https://github.com/Mohsintl/omadeck)** | Phone-as-remote PWA and voice companion for Linux, 400+ tests in CI on Python 3.11 to 3.13 | Python · pytest · WebSockets |
 
----
+### Open-source contributions
 
-### 🛠️ Tech & Tooling
+| Project | Pull request | Status |
+| :--- | :--- | :--- |
+| [tester-army/e2e](https://github.com/tester-army/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/tester-army/e2e/pull/1511) | Merged |
+| | [JUnit failure screenshots as GitLab attachments](https://github.com/tester-army/e2e/pull/1526) | In review |
+| [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | In review |
+| [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | Merged |
+| | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | Merged |
+| [Sellbird](https://github.com/ethanplusai/sellbird) · sales reply agent | [Replies follow the configured offer and booking settings](https://github.com/ethanplusai/sellbird/pull/203) | Co-authored |
+| [Paperclip](https://github.com/paperclipai/paperclip) · agent management platform | [Reconcile stranded agents behind pending accounting](https://github.com/paperclipai/paperclip/pull/18590) | In review |
 
-<p align="left">
-  <!-- Testing & Automation -->
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/API_Testing-0052CC?style=flat-square&logo=postman&logoColor=white" alt="API Testing" />
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <!-- Backend & Cloud -->
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" />
-</p>
+### Tools I work with
 
----
+- **Testing:** Playwright · e2e (agentic) · Selenium · Vitest · pytest · API testing
+- **Languages:** TypeScript · JavaScript · Python
+- **CI and tooling:** GitHub Actions · Docker · Node.js · Git
 
-### 🔭 Focus & Interests
-- **Agentic & AI Infrastructure**: Harnessing AI for reliable test generation, verification, and autonomous agent orchestration.
-- **Developer & Quality Velocity**: Building lightweight developer tools and deterministic testing frameworks that eliminate release friction.
-- **Systems & Linux**: Custom desktop tooling, PWAs, and high-performance workflow automation.
+### What I care about
 
----
-
-<p align="left">
-  <a href="https://github.com/Mohsintl"><img src="https://github-readme-stats.vercel.app/api?username=Mohsintl&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="GitHub Stats" /></a>
-  <a href="https://github.com/Mohsintl"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohsintl&layout=compact&theme=radical&hide_border=true" height="150" alt="Top Langs" /></a>
-</p>
+- Tests that fail for the right reason: deterministic suites, strict locators, and evidence (traces, screenshots, JUnit) that makes a CI failure quick to read.
+- Quality gates in CI: fast smoke checks on pull requests, full cross-browser regression on main and nightly.
+- Fixing the tools upstream instead of working around them.
