@@ -1,3 +1,5 @@
+<img src="assets/banner.svg" alt="Mohsin, Senior Quality Engineer and SDET" width="100%" />
+
 # Hi, I'm Mohsin
 
 **Senior Quality Engineer & SDET.** I build end-to-end test suites, wire them into CI as quality gates, and contribute fixes back to the open-source testing tools I use.
@@ -19,13 +21,13 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 
 | Project | Pull request | Status |
 | :--- | :--- | :--- |
-| [tester-army/e2e](https://github.com/tester-army/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/tester-army/e2e/pull/1511) | Merged |
-| | [JUnit failure screenshots as GitLab attachments](https://github.com/tester-army/e2e/pull/1526) | In review |
-| [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | In review |
-| [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | Merged |
-| | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | Merged |
-| [Sellbird](https://github.com/ethanplusai/sellbird) · sales reply agent | [Replies follow the configured offer and booking settings](https://github.com/ethanplusai/sellbird/pull/203) | Co-authored |
-| [Paperclip](https://github.com/paperclipai/paperclip) · agent management platform | [Reconcile stranded agents behind pending accounting](https://github.com/paperclipai/paperclip/pull/18590) | In review |
+| [tester-army/e2e](https://github.com/tester-army/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/tester-army/e2e/pull/1511) | 🟢 Merged |
+| | [JUnit failure screenshots as GitLab attachments](https://github.com/tester-army/e2e/pull/1526) | 🟡 In review |
+| [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | 🟡 In review |
+| [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | 🟢 Merged |
+| | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | 🟢 Merged |
+| [Sellbird](https://github.com/ethanplusai/sellbird) · sales reply agent | [Replies follow the configured offer and booking settings](https://github.com/ethanplusai/sellbird/pull/203) | 🔵 Co-authored |
+| [Paperclip](https://github.com/paperclipai/paperclip) · agent management platform | [Reconcile stranded agents behind pending accounting](https://github.com/paperclipai/paperclip/pull/18590) | 🟡 In review |
 
 ### Tools I work with
 
