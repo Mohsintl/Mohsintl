@@ -4,7 +4,7 @@
 
 **Senior Quality Engineer & SDET.** I build end-to-end test suites, wire them into CI as quality gates, and contribute fixes back to the open-source testing tools I use.
 
-Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl.github.io/qa-automation-resources](https://mohsintl.github.io/qa-automation-resources/)**
+Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl.is-a.dev](https://mohsintl.is-a.dev/)**
 
 ---
 
