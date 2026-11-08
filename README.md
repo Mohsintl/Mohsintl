@@ -14,7 +14,7 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 | :--- | :--- | :--- |
 | **[automation-exercise-playwright](https://github.com/Mohsintl/automation-exercise-playwright)** | 24 tests, Page Object Model, smoke on every PR, nightly regression on Chromium, Firefox and WebKit, traces and videos on failure | Playwright · TypeScript · GitHub Actions |
 | **[e2e-automation-exercise](https://github.com/Mohsintl/e2e-automation-exercise)** | The same journeys ported to the agentic e2e framework, with ad-network blocking for deterministic CI runs | e2e · TypeScript · GitHub Actions |
-| **[qa-automation-resources](https://github.com/Mohsintl/qa-automation-resources)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
+| **[portfolio](https://github.com/Mohsintl/portfolio)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
 | **[Omadeck](https://github.com/Mohsintl/omadeck)** | Phone-as-remote PWA and voice companion for Linux, 400+ tests in CI on Python 3.11 to 3.13 | Python · pytest · WebSockets |
 
 ### Open-source contributions
