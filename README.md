@@ -26,6 +26,7 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | 🟡 In review |
 | [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | 🟢 Merged |
 | | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | 🟢 Merged |
+| | [Refocus traces work in catalogued projects outside the workspace root](https://github.com/mvschwarz/openrig/pull/2717) | 🟢 Merged |
 | [Sellbird](https://github.com/ethanplusai/sellbird) · sales reply agent | [Replies follow the configured offer and booking settings](https://github.com/ethanplusai/sellbird/pull/203) | 🔵 Co-authored |
 | [Paperclip](https://github.com/paperclipai/paperclip) · agent management platform | [Reconcile stranded agents behind pending accounting](https://github.com/paperclipai/paperclip/pull/18590) | 🟡 In review |
 
