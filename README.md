@@ -22,7 +22,7 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 | Project | Pull request | Status |
 | :--- | :--- | :--- |
 | [tester-army/e2e](https://github.com/tester-army/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/tester-army/e2e/pull/1511) | 🟢 Merged |
-| | [JUnit failure screenshots as GitLab attachments](https://github.com/tester-army/e2e/pull/1526) | 🟡 In review |
+| | [JUnit failure screenshots as GitLab attachments](https://github.com/tester-army/e2e/pull/1526) | 🟢 Merged |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | 🟡 In review |
 | [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | 🟢 Merged |
 | | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | 🟢 Merged |
