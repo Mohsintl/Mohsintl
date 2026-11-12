@@ -1,8 +1,8 @@
-<img src="assets/banner.svg" alt="Mohsin, Senior Quality Engineer and SDET" width="100%" />
+<img src="assets/banner.svg" alt="Mohsin, Senior Quality Engineer Analyst and SDET" width="100%" />
 
 # Hi, I'm Mohsin
 
-**Senior Quality Engineer & SDET.** I build end-to-end test suites, wire them into CI as quality gates, and contribute fixes back to the open-source testing tools I use.
+**Senior Quality Engineer Analyst & SDET.** I build end-to-end test suites, wire them into CI as quality gates, and contribute fixes back to the open-source testing tools I use.
 
 Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl.is-a.dev](https://mohsintl.is-a.dev/)**
 
@@ -15,7 +15,7 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 | **[automation-exercise-playwright](https://github.com/Mohsintl/automation-exercise-playwright)** | 24 tests, Page Object Model, smoke on every PR, nightly regression on Chromium, Firefox and WebKit, traces and videos on failure | Playwright · TypeScript · GitHub Actions |
 | **[e2e-automation-exercise](https://github.com/Mohsintl/e2e-automation-exercise)** | The same journeys ported to the agentic e2e framework, with ad-network blocking for deterministic CI runs. Featured as a [community example on e2e](https://e2e.com/examples/automation-exercise) | e2e · TypeScript · GitHub Actions |
 | **[portfolio](https://github.com/Mohsintl/Mohsintl.github.io)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
-| **[OmaDeck](https://github.com/Mohsintl/omadeck)** | Turns a phone into a Stream Deck and voice remote for Omarchy and Hyprland. Phone-deck e2e tests with a fake desktop, featured as a [community example on e2e](https://e2e.com/examples/omadeck), plus 400+ unit tests in CI | Python · e2e · GitHub Actions |
+| **[OmaDeck](https://github.com/Mohsintl/omadeck)** | Turns a phone into a Stream Deck and voice remote for Omarchy and Hyprland. Phone-deck e2e tests with a fake desktop, featured as a [community example on e2e](https://e2e.com/examples/omadeck), plus 480+ unit tests in CI | Python · e2e · GitHub Actions |
 
 ### Open-source contributions
 
@@ -26,6 +26,7 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 | | [OmaDeck added as a community example](https://github.com/e2e-inc/e2e/pull/1707) | 🟢 Merged |
 | | [Automation Exercise added as a community example](https://github.com/e2e-inc/e2e/pull/1512) | 🟢 Merged |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) · browser automation framework | [Fix `Select` escaping of trailing double quotes (Python)](https://github.com/SeleniumHQ/selenium/pull/18292) | 🟢 Merged |
+| | [Find `Select` options by value with XPath (Python)](https://github.com/SeleniumHQ/selenium/pull/18305) | 🟡 In review |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | 🟡 In review |
 | [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | 🟢 Merged |
 | | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | 🟢 Merged |
