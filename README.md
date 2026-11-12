@@ -14,15 +14,16 @@ Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl
 | :--- | :--- | :--- |
 | **[automation-exercise-playwright](https://github.com/Mohsintl/automation-exercise-playwright)** | 24 tests, Page Object Model, smoke on every PR, nightly regression on Chromium, Firefox and WebKit, traces and videos on failure | Playwright · TypeScript · GitHub Actions |
 | **[e2e-automation-exercise](https://github.com/Mohsintl/e2e-automation-exercise)** | The same journeys ported to the agentic e2e framework, with ad-network blocking for deterministic CI runs | e2e · TypeScript · GitHub Actions |
-| **[portfolio](https://github.com/Mohsintl/portfolio)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
-| **[Omadeck](https://github.com/Mohsintl/omadeck)** | Phone-as-remote PWA and voice companion for Linux, 400+ tests in CI on Python 3.11 to 3.13 | Python · pytest · WebSockets |
+| **[portfolio](https://github.com/Mohsintl/Mohsintl.github.io)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
+| **[OmaDeck](https://github.com/Mohsintl/omadeck)** | Turns a phone into a Stream Deck and voice remote for Omarchy and Hyprland. Phone-deck e2e tests with a fake desktop, featured as a [community example on e2e](https://e2e.com/examples/omadeck), plus 400+ unit tests in CI | Python · e2e · GitHub Actions |
 
 ### Open-source contributions
 
 | Project | Pull request | Status |
 | :--- | :--- | :--- |
-| [tester-army/e2e](https://github.com/tester-army/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/tester-army/e2e/pull/1511) | 🟢 Merged |
-| | [JUnit failure screenshots as GitLab attachments](https://github.com/tester-army/e2e/pull/1526) | 🟢 Merged |
+| [e2e-inc/e2e](https://github.com/e2e-inc/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/e2e-inc/e2e/pull/1511) | 🟢 Merged |
+| | [JUnit failure screenshots as GitLab attachments](https://github.com/e2e-inc/e2e/pull/1526) | 🟢 Merged |
+| | [OmaDeck added as a community example](https://github.com/e2e-inc/e2e/pull/1707) | 🟢 Merged |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | 🟡 In review |
 | [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | 🟢 Merged |
 | | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | 🟢 Merged |
