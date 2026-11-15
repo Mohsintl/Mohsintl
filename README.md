@@ -2,46 +2,27 @@
 
 # Hi, I'm Mohsin
 
-**Senior Quality Engineer Analyst & SDET.** I build end-to-end test suites, wire them into CI as quality gates, and contribute fixes back to the open-source testing tools I use.
+I'm a Senior Quality Engineer Analyst and SDET. I write end-to-end tests, run them in CI so a broken build gets caught before it ships, and when a testing tool I use has a bug, I try to fix it upstream.
 
-Computer Science graduate · Portfolio, notes and free QA resources: **[mohsintl.is-a.dev](https://mohsintl.is-a.dev/)**
+My portfolio, notes and free QA resources are at **[mohsintl.is-a.dev](https://mohsintl.is-a.dev/)**.
 
----
+## Things I've built
 
-### Test automation projects
+- **[OmaDeck](https://github.com/Mohsintl/omadeck)** turns my phone into a Stream Deck and voice remote for my Linux desktop (Omarchy and Hyprland). It's Python, with 500+ unit tests and phone-deck tests that run against a fake desktop. Those tests are a [community example on e2e](https://e2e.com/examples/omadeck).
+- **[automation-exercise-playwright](https://github.com/Mohsintl/automation-exercise-playwright)** is 24 Playwright tests in TypeScript using page objects. A smoke run checks every pull request, and a nightly run covers Chromium, Firefox and WebKit, with traces and videos when something fails.
+- **[e2e-automation-exercise](https://github.com/Mohsintl/e2e-automation-exercise)** ports the same tests to the e2e framework and blocks ad networks so CI runs stay stable. It's also a [community example on e2e](https://e2e.com/examples/automation-exercise).
+- **[My portfolio](https://github.com/Mohsintl/Mohsintl.github.io)** is React, tested with Playwright on desktop and mobile before every deploy.
 
-| Project | What it shows | Stack |
-| :--- | :--- | :--- |
-| **[automation-exercise-playwright](https://github.com/Mohsintl/automation-exercise-playwright)** | 24 tests, Page Object Model, smoke on every PR, nightly regression on Chromium, Firefox and WebKit, traces and videos on failure | Playwright · TypeScript · GitHub Actions |
-| **[e2e-automation-exercise](https://github.com/Mohsintl/e2e-automation-exercise)** | The same journeys ported to the agentic e2e framework, with ad-network blocking for deterministic CI runs. Featured as a [community example on e2e](https://e2e.com/examples/automation-exercise) | e2e · TypeScript · GitHub Actions |
-| **[portfolio](https://github.com/Mohsintl/Mohsintl.github.io)** | My portfolio site, tested with Playwright on desktop and mobile in CI before every deploy | React · Playwright · GitHub Pages |
-| **[OmaDeck](https://github.com/Mohsintl/omadeck)** | Turns a phone into a Stream Deck and voice remote for Omarchy and Hyprland. Phone-deck e2e tests with a fake desktop, featured as a [community example on e2e](https://e2e.com/examples/omadeck), plus 480+ unit tests in CI | Python · e2e · GitHub Actions |
+## Merged pull requests
 
-### Open-source contributions
+- **Selenium** (Python bindings): [`Select` escapes trailing double quotes correctly](https://github.com/SeleniumHQ/selenium/pull/18292), and [`Select` finds options by value with XPath](https://github.com/SeleniumHQ/selenium/pull/18305).
+- **e2e:** [date patterns in the replay cache](https://github.com/e2e-inc/e2e/pull/1511), [failure screenshots as GitLab attachments in JUnit](https://github.com/e2e-inc/e2e/pull/1526), and two community examples ([Automation Exercise](https://github.com/e2e-inc/e2e/pull/1512), [OmaDeck](https://github.com/e2e-inc/e2e/pull/1707)).
+- **omarchy-widgets:** a [pressure widget](https://github.com/SimonSchubert/omarchy-widgets/pull/463) showing free RAM the way the kernel sees it, [lighter polling](https://github.com/SimonSchubert/omarchy-widgets/pull/471) for it, and a [capture widget](https://github.com/SimonSchubert/omarchy-widgets/pull/474) that saves a dictated thought to `~/inbox.md`.
+- **OpenRig:** [a warning for an unknown `--kind`](https://github.com/mvschwarz/openrig/pull/2365), [a readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367), and [refocus tracing work outside the workspace root](https://github.com/mvschwarz/openrig/pull/2717).
+- **Sellbird:** [replies follow the configured offer and booking settings](https://github.com/ethanplusai/sellbird/pull/203), co-authored.
 
-| Project | Pull request | Status |
-| :--- | :--- | :--- |
-| [e2e-inc/e2e](https://github.com/e2e-inc/e2e) · agentic E2E testing framework | [Fix date patterns in the replay cache](https://github.com/e2e-inc/e2e/pull/1511) | 🟢 Merged |
-| | [JUnit failure screenshots as GitLab attachments](https://github.com/e2e-inc/e2e/pull/1526) | 🟢 Merged |
-| | [OmaDeck added as a community example](https://github.com/e2e-inc/e2e/pull/1707) | 🟢 Merged |
-| | [Automation Exercise added as a community example](https://github.com/e2e-inc/e2e/pull/1512) | 🟢 Merged |
-| [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) · browser automation framework | [Fix `Select` escaping of trailing double quotes (Python)](https://github.com/SeleniumHQ/selenium/pull/18292) | 🟢 Merged |
-| | [Find `Select` options by value with XPath (Python)](https://github.com/SeleniumHQ/selenium/pull/18305) | 🟡 In review |
-| [dorny/test-reporter](https://github.com/dorny/test-reporter) · test results in GitHub Actions | [Document when `checks: write` is needed](https://github.com/dorny/test-reporter/pull/865) | 🟡 In review |
-| [OpenRig](https://github.com/mvschwarz/openrig) · multi-agent orchestration CLI | [Warn on an unrecognized `--kind`](https://github.com/mvschwarz/openrig/pull/2365) | 🟢 Merged |
-| | [Readable error when workspace validation refuses](https://github.com/mvschwarz/openrig/pull/2367) | 🟢 Merged |
-| | [Refocus traces work in catalogued projects outside the workspace root](https://github.com/mvschwarz/openrig/pull/2717) | 🟢 Merged |
-| [Sellbird](https://github.com/ethanplusai/sellbird) · sales reply agent | [Replies follow the configured offer and booking settings](https://github.com/ethanplusai/sellbird/pull/203) | 🔵 Co-authored |
-| [Paperclip](https://github.com/paperclipai/paperclip) · agent management platform | [Reconcile stranded agents behind pending accounting](https://github.com/paperclipai/paperclip/pull/18590) | 🟡 In review |
+Still in review: [test-reporter docs](https://github.com/dorny/test-reporter/pull/865), [Paperclip](https://github.com/paperclipai/paperclip/pull/18590), and two for [omalauncher](https://github.com/SimonSchubert/omalauncher/pulls?q=author%3AMohsintl).
 
-### Tools I work with
+## What I use
 
-- **Testing:** Playwright · e2e (agentic) · Selenium · Vitest · pytest · API testing
-- **Languages:** TypeScript · JavaScript · Python
-- **CI and tooling:** GitHub Actions · Docker · Node.js · Git
-
-### What I care about
-
-- Tests that fail for the right reason: deterministic suites, strict locators, and evidence (traces, screenshots, JUnit) that makes a CI failure quick to read.
-- Quality gates in CI: fast smoke checks on pull requests, full cross-browser regression on main and nightly.
-- Fixing the tools upstream instead of working around them.
+Playwright, e2e, Selenium, Vitest and pytest. TypeScript, JavaScript and Python. GitHub Actions, Docker and Git.
