@@ -4,7 +4,7 @@
 
 **I break software before your users do, then automate the test so the bug never comes back.**
 
-Senior Quality Engineer Analyst and SDET. My Playwright, Selenium, pytest and e2e tests are merged into Eclipse Open VSX, Selenium and the e2e framework, and run in CI on every pull request.
+Senior Quality Engineer Analyst and SDET. My Playwright, Selenium, pytest and e2e tests are merged into Element, Eclipse Open VSX, Selenium and the e2e framework, and run in CI on every pull request.
 
 Portfolio, notes and free QA resources: **[mohsintl.is-a.dev](https://mohsintl.is-a.dev/)**
 
@@ -12,7 +12,8 @@ Portfolio, notes and free QA resources: **[mohsintl.is-a.dev](https://mohsintl.i
 
 End-to-end tests I wrote for open-source products, so their bugs get caught in CI.
 
-- **[Eclipse Open VSX](https://github.com/eclipse-openvsx/openvsx)**, the extension registry behind VS Code forks: a [Playwright test for switching an extension to an older version and back](https://github.com/eclipse-openvsx/openvsx/pull/2462). In review: [tests for the changelog and reviews tabs and the namespace link](https://github.com/eclipse-openvsx/openvsx/pull/2463).
+- **[Element](https://github.com/element-hq/element-web)**, the Matrix chat client: fixed flaky Playwright tests, [emoji verification between two users](https://github.com/element-hq/element-web/pull/35934) and [a service worker toast that broke four tests on Firefox and WebKit](https://github.com/element-hq/element-web/pull/35936). In review: [the profile picture test](https://github.com/element-hq/element-web/pull/35935) and [reopening a 1:1 chat after leaving it](https://github.com/element-hq/element-web/pull/35941).
+- **[Eclipse Open VSX](https://github.com/eclipse-openvsx/openvsx)**, the extension registry behind VS Code forks: Playwright tests for [switching an extension to an older version and back](https://github.com/eclipse-openvsx/openvsx/pull/2462), and for [the changelog and reviews tabs and the namespace link](https://github.com/eclipse-openvsx/openvsx/pull/2463).
 - **In review:** [phone and tablet Playwright tests for Tabularis](https://github.com/TabularisDB/tabularis/pull/1612), a database client.
 
 ## Fixes in testing tools
